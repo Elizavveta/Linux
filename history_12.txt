@@ -1,0 +1,26 @@
+   0 whoami
+   1 pwd
+   2 cd ..
+   3 ls
+   4 cd opt
+   5 mkdir task
+   6 cd task
+   7 touch start.txt
+   8 cd /
+   9 cd home
+  10 mkdir user
+  11 cd user
+  12 mkdir start
+  13 cd start
+  14 touch 1.txt
+  15 echo 'Start' >> 1.txt
+  16 date >> 1.txt
+  17 cat 1.txt
+  18 cp 1.txt /opt/task
+  19 cd /opt
+  20 cd task
+  21 tree
+  22 ls -la /* | tail -4 >> /opt/task/start.txt
+  23 cat start.txt
+  24 cd /
+  25 history > history_12.txt
